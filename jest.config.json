@@ -1,0 +1,21 @@
+{
+  "clearMocks": true,
+  "testEnvironment": "jsdom",
+  "setupTestFrameworkScriptFile": "./jestSetup.js",
+  "modulePaths": [
+    "<rootDir>/exercises/exercise3/src"
+  ],
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "testRegex": "((\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js"
+  ],
+  "unmockedModulePathPatterns": [
+    "react",
+    "enzyme"
+  ]
+}

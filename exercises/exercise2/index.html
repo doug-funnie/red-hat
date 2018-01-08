@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Exercise2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Overpass:400,600,700" rel="stylesheet">
+    <link href="./reset.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body class="background">
+    <div class="content">
+      <div class="card">
+
+        <div class="card__header">
+          <div class="card__title">Openshift</div>
+          <div class="card__tabs">
+            <div role="tablist" class="tabs">
+              <button
+                class="tabs__tab tabs__tab--active"
+                role="tab"
+                aria-selected="true"
+                aria-controls="first-tab"
+                id="first"
+              >
+                Item
+              </button>
+              <button
+                class="tabs__tab"
+                role="tab"
+                aria-selected="false"
+                aria-controls="second-tab"
+                id="second"
+              >
+                Item
+              </button>
+              <button
+                class="tabs__tab"
+                role="tab"
+                aria-selected="false"
+                aria-controls="third-tab"
+                id="third"
+              >
+                Item
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__content">
+
+          <article
+            tabindex="0"
+            role="tabpanel"
+            id="first-tab"
+            aria-labelledby="first"
+          >
+            <header class="card__subtitle">Panel content</header>
+            <section class="card__section">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet dapibus elit, sed scelerisque ex mattis vel. Nulla facilisi. Mauris sit amet mauris vehicula, sodales velit quis, porta mauris.</p>
+            </section>
+            <section class="card__section">
+              <dl class="description-list">
+                <dt class="description-list__title">CaseID:</dt>
+                <dd>Case002b</dd>
+
+                <dt class="description-list__title">Case Name:</dt>
+                <dd>Development case instance</dd>
+
+                <dt class="description-list__title">Status:</dt>
+                <dd>
+                  <span class="tag tag--active">Active</span>
+                </dd>
+
+                <dt class="description-list__title">State:</dt>
+                <dd>Started on March 16th, 2017</dd>
+              </dl>
+            </section>
+          </article>
+
+          <article tabindex="0"
+            role="tabpanel"
+            id="second-tab"
+            aria-labelledby="second"
+            hidden="">
+          </article>
+
+          <article tabindex="0"
+            role="tabpanel"
+            id="third-tab"
+            aria-labelledby="third"
+            hidden="">
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

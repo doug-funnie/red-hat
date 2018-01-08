@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders external link if isExternal is true 1`] = `
+<glamorous(a)
+  href="to"
+  rel="noopener noreferer"
+  target="_blank"
+/>
+`;
+
+exports[`renders internal link by default 1`] = `
+<glamorous(Link)
+  to="to"
+/>
+`;

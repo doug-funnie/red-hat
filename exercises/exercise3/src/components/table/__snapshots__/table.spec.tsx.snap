@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calls keyExtractor 1`] = `
+Array [
+  Array [
+    Object {
+      "data": 1,
+      "index": 0,
+    },
+  ],
+]
+`;
+
+exports[`calls renderLabel 1`] = `
+Array [
+  Array [
+    Object {
+      "column": Object {
+        "id": 1,
+        "renderCell": [MockFunction],
+        "renderLabel": [MockFunction] {
+          "calls": [Circular],
+        },
+      },
+      "index": 0,
+    },
+  ],
+]
+`;

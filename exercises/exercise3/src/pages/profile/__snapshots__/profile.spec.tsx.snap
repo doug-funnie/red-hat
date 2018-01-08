@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not render info sections while loading 1`] = `
+Array [
+  <Component
+    isLoading={true}
+    size={100}
+    type="avatar"
+  />,
+  <Component
+    height={18}
+    isLoading={true}
+    type="text"
+    width={200}
+  />,
+  <Component
+    height={16}
+    isLoading={true}
+    type="text"
+    width={150}
+  />,
+]
+`;
+
+exports[`navigated to user list on back 1`] = `
+Array [
+  Array [
+    "/users",
+  ],
+]
+`;

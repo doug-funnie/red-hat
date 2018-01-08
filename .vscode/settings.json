@@ -1,0 +1,6 @@
+{
+  "eslint.autoFixOnSave": true,
+  "tslint.autoFixOnSave": true,
+  "files.eol": "\n",
+  "tslint.jsEnable": true
+}

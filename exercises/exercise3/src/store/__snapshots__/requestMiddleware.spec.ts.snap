@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`middleware dispatches error action 1`] = `
+Array [
+  Array [
+    Object {
+      "error": false,
+      "meta": Object {
+        "request-middleware": 0,
+      },
+      "payload": undefined,
+      "type": "REQUEST_ACTION",
+    },
+  ],
+  Array [
+    Object {
+      "error": true,
+      "meta": Object {
+        "request-middleware": 2,
+      },
+      "payload": "REJECTION",
+      "type": "REQUEST_ACTION",
+    },
+  ],
+]
+`;
+
+exports[`middleware dispatches success action 1`] = `
+Array [
+  Array [
+    Object {
+      "error": false,
+      "meta": Object {
+        "request-middleware": 0,
+      },
+      "payload": undefined,
+      "type": "REQUEST_ACTION",
+    },
+  ],
+  Array [
+    Object {
+      "error": false,
+      "meta": Object {
+        "request-middleware": 1,
+      },
+      "payload": "RESOLVED",
+      "type": "REQUEST_ACTION",
+    },
+  ],
+]
+`;

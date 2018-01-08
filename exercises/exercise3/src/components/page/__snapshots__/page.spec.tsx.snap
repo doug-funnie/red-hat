@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders children if no error is present 1`] = `
+<React.Fragment>
+  <Component
+    title="Title"
+  />
+  <glamorous.Main
+    marginTop={60}
+  >
+    <glamorous(div)>
+      <div>
+        content
+      </div>
+    </glamorous(div)>
+  </glamorous.Main>
+</React.Fragment>
+`;

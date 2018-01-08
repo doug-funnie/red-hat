@@ -1,0 +1,8 @@
+{
+  "name": "exercise1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Doug Miller <doug@dougmiller.io>",
+  "license": "UNLICENSED",
+  "private": true
+}

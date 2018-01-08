@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calls history.push onUserClick 1`] = `
+Array [
+  Array [
+    "/users/1",
+  ],
+]
+`;

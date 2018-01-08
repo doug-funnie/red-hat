@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calls onClick on row click 1`] = `
+Array [
+  Array [
+    Object {
+      "data": 1,
+      "event": "event",
+      "index": 0,
+    },
+  ],
+]
+`;
+
+exports[`calls renderCell for column 1`] = `
+Array [
+  Array [
+    Object {
+      "column": Object {
+        "id": 1,
+        "renderCell": [MockFunction] {
+          "calls": [Circular],
+        },
+        "renderLabel": [MockFunction],
+      },
+      "data": 1,
+      "index": 0,
+    },
+  ],
+]
+`;

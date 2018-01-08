@@ -1,0 +1,47 @@
+{
+  "name": "redhat",
+  "version": "1.0.0",
+  "description": "Monorepo for Redhat exercises",
+  "main": "index.js",
+  "author": "Doug Miller <doug@dougmiller.io>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build:exercise3": "yarn workspace exercise3 build",
+    "lint": "tslint --project tsconfig.json",
+    "start:exercise2": "yarn workspace exercise2 start",
+    "start:exercise3": "yarn workspace exercise3 start",
+    "test": "jest -c ./jest.config.json",
+    "tsc": "yarn workspace exercise3 tsc",
+    "verify": "yarn lint && yarn tsc && yarn test"
+  },
+  "workspaces": [
+    "exercises/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.36",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.36",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.36",
+    "@babel/preset-env": "^7.0.0-beta.36",
+    "@babel/preset-react": "^7.0.0-beta.36",
+    "@types/enzyme": "^3.1.6",
+    "babel-eslint": "^8.0.0-alpha.17",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.0",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0",
+    "jest": "^22.0.4",
+    "ts-jest": "^22.0.0",
+    "tslint": "^5.8.0",
+    "tslint-react": "^3.3.3"
+  },
+  "dependencies": {
+    "@types/jest": "^22.0.1",
+    "@types/node": "^4.0.35"
+  }
+}

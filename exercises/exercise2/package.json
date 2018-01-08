@@ -1,0 +1,14 @@
+{
+  "name": "exercise2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Doug Miller <doug@dougmiller.io>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "http-server ./"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}

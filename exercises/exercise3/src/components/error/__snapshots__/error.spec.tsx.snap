@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders defaults 1`] = `
+<glamorous.Div
+  alignItems="center"
+  display="flex"
+  flexDirection="column"
+  justifyContent="center"
+>
+  <glamorous.Div
+    fontSize={75}
+  >
+    😒
+  </glamorous.Div>
+  <glamorous.Div
+    marginBottom={15}
+    textAlign="center"
+  >
+    <glamorous(h2)>
+      Oops!
+    </glamorous(h2)>
+    <glamorous(h3)>
+      Something went wrong.
+    </glamorous(h3)>
+  </glamorous.Div>
+</glamorous.Div>
+`;
+
+exports[`renders title and message props 1`] = `
+<glamorous.Div
+  alignItems="center"
+  display="flex"
+  flexDirection="column"
+  justifyContent="center"
+>
+  <glamorous.Div
+    fontSize={75}
+  >
+    😒
+  </glamorous.Div>
+  <glamorous.Div
+    marginBottom={15}
+    textAlign="center"
+  >
+    <glamorous(h2)>
+      Title
+    </glamorous(h2)>
+    <glamorous(h3)>
+      Message
+    </glamorous(h3)>
+  </glamorous.Div>
+</glamorous.Div>
+`;

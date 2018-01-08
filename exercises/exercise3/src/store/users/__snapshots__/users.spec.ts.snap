@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectors selectUserListSorted sorts user list using sortKey in userList state 1`] = `
+Array [
+  Object {
+    "id": 2,
+    "name": "A User2",
+  },
+  Object {
+    "id": 1,
+    "name": "Z User 1",
+  },
+]
+`;
+
+exports[`userList defaults state 1`] = `
+Object {
+  "error": null,
+  "fetchStatus": "none",
+  "sortDirection": 0,
+  "sortKey": "name",
+  "users": Array [],
+}
+`;
+
+exports[`userList handles failed fetchUsers action 1`] = `
+Object {
+  "error": "Error",
+  "fetchStatus": "complete",
+  "sortDirection": 0,
+  "sortKey": "name",
+  "users": Array [],
+}
+`;
+
+exports[`userList handles successful fetchUsers action 1`] = `
+Object {
+  "error": null,
+  "fetchStatus": "inProgress",
+  "sortDirection": 0,
+  "sortKey": "name",
+  "users": Array [],
+}
+`;
+
+exports[`userList handles successful fetchUsers action 2`] = `
+Object {
+  "error": null,
+  "fetchStatus": "complete",
+  "sortDirection": 0,
+  "sortKey": "name",
+  "users": Array [
+    1,
+    2,
+  ],
+}
+`;
+
+exports[`users defaults state 1`] = `
+Object {
+  "byId": Object {},
+  "errors": Object {},
+  "fetchStatus": Object {},
+}
+`;
+
+exports[`users handles failed fetchUser action 1`] = `
+Object {
+  "byId": Object {},
+  "errors": Object {
+    "1": "Error",
+  },
+  "fetchStatus": Object {
+    "1": "complete",
+  },
+}
+`;
+
+exports[`users handles successful fetchUser action 1`] = `
+Object {
+  "byId": Object {},
+  "errors": Object {},
+  "fetchStatus": Object {
+    "1": "inProgress",
+  },
+}
+`;
+
+exports[`users handles successful fetchUser action 2`] = `
+Object {
+  "byId": Object {
+    "1": Object {
+      "id": 1,
+      "name": "Z User 1",
+    },
+  },
+  "errors": Object {},
+  "fetchStatus": Object {
+    "1": "complete",
+  },
+}
+`;
+
+exports[`users handles successful fetchUsers action 1`] = `
+Object {
+  "byId": Object {
+    "1": Object {
+      "id": 1,
+      "name": "Z User 1",
+    },
+    "2": Object {
+      "id": 2,
+      "name": "A User2",
+    },
+  },
+  "errors": Object {},
+  "fetchStatus": Object {
+    "1": "complete",
+    "2": "complete",
+  },
+}
+`;
